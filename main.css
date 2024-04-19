@@ -96,7 +96,7 @@ section {
     column-gap: 1%;
 }
 
-.destaque img {
+.produto img {
     max-width: 100%;
 }
 
@@ -108,7 +108,7 @@ section {
     max-width: 100%;
 }
 
-.destaque .lancamento .promocao li {
+.produto .lancamento .promocao li {
     list-style: none;
 }
 
@@ -135,14 +135,35 @@ button:hover {
     background-color: green;
 }
 
-footer .container-flex {
+header,
+footer {
     background-color: black;
-    padding-top: 15px;
-    color:  #4de610;
-    padding: 15px 0;
-    max-width: 1504px;
-    width: 100%;
-    margin: 0 auto;
+    padding-top: 16px;
+    color: #4de610
+}
+
+header>.container,
+footer>.container {
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 16px;
+}
+
+footer {
+    display: block;
+}
+
+footer li {
+    list-style: none;
+    margin-left: 16px;
+}
+
+footer img {
+    height: 32px;
+}
+
+.logo li img {
+    color: #4de610;
 }
 
 @media  screen and ( max-width: 640px) {
