@@ -28,7 +28,7 @@ header {
     z-index: 1;
 }
 
-header > .container{
+header > .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -51,7 +51,7 @@ nav li {
 }
 
 nav li a {
-    color: #fff;
+    color: #4de610;
     text-decoration: none;
 }
 
@@ -60,7 +60,7 @@ nav li a {
     cursor: pointer;
 }
 
-.menu-hamburguer span{
+.menu-hamburguer span {
     height: 2px;
     width: 100%;
     background-color: #4de610;
@@ -70,6 +70,8 @@ nav li a {
 
 .container-flex {
     display: flex;
+    text-decoration: none;
+    list-style: none;
 }
 
 .sobre-a-loja {
@@ -90,7 +92,7 @@ section {
     margin-top: 16px ;
 }
 
-.lista ul{
+.lista ul {
     display: grid;
     grid-template-columns: repeat( 4 , 24.5%);
     column-gap: 1%;
@@ -108,7 +110,7 @@ section {
     max-width: 100%;
 }
 
-.produto .lancamento .promocao li {
+.lançamento .produto .promocao li {
     list-style: none;
 }
 
@@ -139,7 +141,7 @@ header,
 footer {
     background-color: black;
     padding-top: 16px;
-    color: #4de610
+    color: #4de610;
 }
 
 header>.container,
@@ -159,11 +161,7 @@ footer li {
 }
 
 footer img {
-    height: 32px;
-}
-
-.logo li img {
-    color: #4de610;
+    height: 30px;
 }
 
 @media  screen and ( max-width: 640px) {
@@ -197,7 +195,7 @@ footer img {
     .menu-hamburguer span{
         height: 2px;
         width: 100%;
-        background-color: #fff;
+        background-color: #4de610;
         display: block;
         margin-bottom: 4px;
     }
