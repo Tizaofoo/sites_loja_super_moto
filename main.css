@@ -153,6 +153,7 @@ footer>.container {
 
 footer {
     display: block;
+    margin-top: 10px;
 }
 
 footer li {
