@@ -36,7 +36,7 @@ header > .container {
 }
 
 nav {
-    background-color: #4de610;
+    background-color: rgb(5, 150, 5);
     padding: 16px 0;
     display: none;
 }
@@ -235,4 +235,10 @@ footer img {
     button {
         margin-bottom: 10px;
     }
+}
+
+#slide1:checked ~ .slides .slide:nth-child(1),
+#slide2:checked ~ .slides .slide:nth-child(2),
+#slide3:checked ~ .slides .slide:nth-child(3) {
+    display: block;
 }
